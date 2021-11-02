@@ -1,8 +1,10 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography } from '@material-ui/core';
 import Layout from '../components/Layout';
 import data from '../utils/data';
+import useStyles from '../utils/styles';
 
 export default function Home() {
+  const classes = useStyles();
   return (
     <Layout>
       <div>
@@ -10,8 +12,8 @@ export default function Home() {
         <Grid container spacing={3}>
           {data.products.map((product)=>(
             <Grid item md={4} key={product.name}>
-              <Card>
-                <CardActionArea>
+              <Card className={ classes.card }>
+                <CardActionArea className={ classes.cardImg } style={ { transition: 'transition: all 1s ease-in;' } }>
                   <CardMedia component="img" image={product.image} title ={product.name}/>
                   <CardContent>
                     <Typography>{product.name}</Typography>

@@ -1,70 +1,103 @@
 const data = {
     products:[
         {
-            name:'Free Shirt',
-            category:'Shirts',
-            image:'images/shirts1.jpg',
-            price: 70,
-            brand:'Nike',
+            name:'Classic Coffee',
+            category:'coffee',
+            image:'images/classic.jpg',
+            price: 20,
+            brand:'nescafe',
             rating: 4.5,
             numReviews: 10,
             inStock:20,
-            desc: 'A popular Shirt'
+            desc: 'Value of Money'
         },
         {
-            name:'Fit Shirt',
-            category:'Shirts',
-            image:'images/shirts2.jpg',
-            price: 20,
-            brand:'Adidas',
+            name:'Chocolate Coffee',
+            category:'coffee',
+            image:'images/chocolate.jpg',
+            price: 30,
+            brand:'nescafe',
             rating: 5,
             numReviews: 13,
             inStock:20,
-            desc: 'A Fit Shirt'
+            desc: 'It will blow your mind'
         },
         {
-            name:'Slim Shirt',
-            category:'Shirts',
-            image:'images/shirts3.jpg',
-            price: 90,
-            brand:'Raymond',
+            name:'White Coffee',
+            category:'coffee',
+            image:'images/white.jpg',
+            price: 40,
+            brand:'nescafe',
             rating: 4,
             numReviews: 9,
             inStock:20,
-            desc: 'A popular Shirt'
+            desc: 'Taste of milk with coffee'
         },
         {
-            name:'Golf Pant',
-            category:'pants',
-            image:'images/pants1.jpg',
-            price: 70,
-            brand:'Nike',
+            name:'Komola Sundori Paan',
+            category:'paan',
+            image:'images/komolasundoripan.jpg',
+            price: 15,
+            brand:'cafenir',
             rating: 3.5,
             numReviews: 10,
             inStock:10,
-            desc: 'A popular Pant'
+            desc: 'Mixed taste'
         },
         {
-            name:'Free Pant',
-            category:'pants',
-            image:'images/pants2.jpg',
+            name:'Misty Paan',
+            category:'paan',
+            image:'images/sweetpan.jpg',
             price: 90,
-            brand:'Addidas',
+            brand:'cafenir',
             rating: 5,
             numReviews: 10,
             inStock:20,
-            desc: 'A good looking pant'
+            desc: 'Sweet paan'
         },
         {
-            name:'Classic pants',
-            category:'pants',
-            image:'images/pants3.jpg',
+            name:'Benarosi Paan',
+            category:'paan',
+            image:'images/benarosipan.jpg',
             price: 70,
             brand:'zara',
             rating: 2.5,
             numReviews: 10,
             inStock:10,
-            desc: 'A popular pant'
+            desc: 'A popular fuska'
+        },
+        {
+            name:'Bahari Fuska',
+            category:'fuska',
+            image:'images/fuska.jpg',
+            price: 70,
+            brand:'cafenir',
+            rating: 2.5,
+            numReviews: 10,
+            inStock:10,
+            desc: 'A popular fuska'
+        },
+        {
+            name:'Bahari Fuska',
+            category:'fuska',
+            image:'images/fuska.jpg',
+            price: 70,
+            brand:'cafenir',
+            rating: 2.5,
+            numReviews: 10,
+            inStock:10,
+            desc: 'A popular fuska'
+        },
+        {
+            name:'Bahari Fuska',
+            category:'fuska',
+            image:'images/fuska.jpg',
+            price: 70,
+            brand:'cafenir',
+            rating: 2.5,
+            numReviews: 10,
+            inStock:10,
+            desc: 'A popular fuska'
         },
     ]
 }

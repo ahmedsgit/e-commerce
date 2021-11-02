@@ -12,7 +12,7 @@ export default function Layout({ children}) {
             </Head>
             <AppBar position="static" className={classes.navbar}>
                 <Toolbar>
-                    <Typography>Pick A Diet</Typography>
+                    <Typography>Cafe Nir</Typography>
                 </Toolbar>
             </AppBar>
             <Container className={classes.main}>
