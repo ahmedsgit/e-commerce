@@ -11,7 +11,13 @@ const useStyles = makeStyles({
     main:{
         minHeight: '80vh',
     },
-
+    brand:{
+        fontWeight: 'bold',
+        fontSize:'1.5rem',
+    },
+    grow:{
+        flexGrow:1,
+    },
     card:{
         transformStyle: "preserve-3d",
         minHeight:'30vh',
@@ -36,6 +42,10 @@ const useStyles = makeStyles({
             zIndex:2,
         },
 
+    },
+    prodName:{
+        fontSize:'1.2rem',
+        fontFamily: 'sans'
     },
     footer:{
         textAlign:'center',
