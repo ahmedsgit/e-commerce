@@ -3,13 +3,14 @@ import Head from 'next/head';
 import React from 'react';
 import useStyles from '../utils/styles';
 import NextLink from 'next/link'
+import Footer from './footer';
 
 export default function Layout({ children}) {
     const classes =useStyles();
     return (
-        <div>
+        <div className={classes.projectContainer}>
             <Head>
-                <title>E-commerce</title>
+                <title>Cafe-Nir</title>
             </Head>
             <AppBar position="static" className={classes.navbar}>
                 <Toolbar>
@@ -36,9 +37,7 @@ export default function Layout({ children}) {
             <Container className={classes.main}>
                 {children}
             </Container>
-            <footer className={classes.footer}>
-                <Typography>All right reserve @PickADiet</Typography>
-            </footer>
+            <Footer/>
         </div>
     )
 }

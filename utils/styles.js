@@ -1,15 +1,20 @@
 import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
+    projectContainer:{
+        position: 'relative',
+    },
     navbar:{
-        backgroundColor:'#203040',
+        background: 'linear-gradient(to left,#00093c,#2d0b00)',
         '& a':{
             color: '#ffffff',
             marginLeft:10,
         },
     },
     main:{
+        position: 'relative',
         minHeight: '80vh',
+        marginBottom: '300px',
     },
     brand:{
         fontWeight: 'bold',
@@ -48,8 +53,52 @@ const useStyles = makeStyles({
         fontFamily: 'sans'
     },
     footer:{
-        textAlign:'center',
+        position: 'absolute',
+        display: 'flex',
+        marginBottom:'-18rem',
+        width: '100%',
+        bottom: 0,
+        background: 'linear-gradient(to left,#00093c,#2d0b00)',
+        color: '#fff',
+        padding: '10px 0 30px',
+        borderTopLeftRadius: '125px',
+        fontSize: '13px',
+        lineHeight: '20px',
     },
+    row:{
+        width: '70%',
+        paddingTop:'10px',
+        margin: 'auto',
+        display: 'flex',
+        flexDirection:'column',
+        flexWrap:'wrap',
+        alignItems: 'flex-start',
+        justifyContent: 'space-between',
+    },
+    column: {
+        flexBasis:'25%',
+        '& h3':{
+            width: 'fit-content',
+            margin:'10px',
+            position: 'relative',
+        },
+        '& ul':{
+            '& li':{
+                listStyle:'none',
+                '& a':{
+                    textDecoration:'none',
+                    color:'#fff',
+                }
+            }
+        },
+        '& input': {
+            padding:'5px',
+            '&::placeholder': {
+                paddingLeft:'35px',
+                color: '#ccc'
+            }
+        }
+    }
 });
 
 export default useStyles;
